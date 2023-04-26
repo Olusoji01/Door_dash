@@ -1,0 +1,226 @@
+*{
+    margin:0px;
+    font-family: DD-TTNorms, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    
+    
+}
+.container{
+    background-image: url(./Image/top-background.jpg);
+    background-size: cover;
+    width:100%;
+    height:80vh;
+    box-sizing: border-box;
+
+}
+.one, .two{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-size:16px;
+    float:right;
+
+    
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+.one{
+    margin-top:20px;
+    margin-left:20px;
+    margin-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    background-color: white;
+    border-style: hidden; 
+
+}
+.two a{
+    color:white;
+}
+
+.two {
+    margin-top:20px;
+    margin-left:20px;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 0px;
+    background: none;
+    border-style: hidden;    
+}
+.container h1{
+    text-align: center;
+    padding-top: 180px;
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+ }
+ form{
+     margin: auto;
+     width: 28%;
+     padding-top: 30px;
+     
+ }
+ .input{
+     width:370px; 
+     background-color: white; 
+     padding:10px 25px;
+     padding-left: 35px;
+     border-radius: 50px;
+     border-color: white;
+     font-size: 17px;
+     color:black;
+     
+ }
+ .sign{
+     width:365px; 
+     background:none; 
+     padding:5px 28px;
+     border-radius: 50px;
+     border:hidden;
+     font-size: 17px;
+     text-decoration: underline;
+ }
+ .sign a{
+     color:white;
+ }
+ .arrow{
+     margin-left: 392px;
+     padding-top: 5px;
+     position: absolute;
+ }
+ svg{
+     position: absolute;
+     padding-top:10px;
+     margin-left: 7px;
+ }
+ .input placeholder{
+     margin-left: 50px;
+ }
+ .section{
+    clear:both;
+    position: relative;
+
+}
+.section .inner1,.inner2,.inner3{
+    text-align: center;
+    float:left;
+    margin-top: 150px;
+    margin-left: 40px;
+    margin-right: 20px;
+    position: absolute;
+}
+.inner1{
+    left: 0px;
+    
+}
+.inner2{
+    left: 400px;
+    
+}
+.inner3{
+    left: 950px;
+    
+}
+.section .inner1,.inner2,.inner3 img{
+    width:160px;
+    height:160px;*/
+}
+.section a,i{
+    color:red;
+    font-weight: bold;
+}
+
+.section2{
+    position: relative;
+    box-sizing: border-box;
+}
+.img1{
+    width: 700px;
+    height: 520px;
+    position: absolute;
+    margin-left: 620px;
+    margin-bottom: 0px;
+    top: 670px;
+    z-index: 1;
+}
+.row1 {
+    display: flex;
+}
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+    text-align: center;
+}
+.column a{
+    cursor: pointer;
+}
+.column a:hover{
+    text-decoration: underline;
+}
+.row2 {
+    display: flex;
+}
+.column2 {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+    text-align: center;
+    
+}
+
+.footer .row_foot{
+    margin-left: 140px;
+    margin-top: px;
+    
+}
+.col {
+    float:left;    
+}
+.footer h3{
+    color: white;
+}
+li{
+    padding: 5px;
+    color:white;
+}
+li a{
+    color:white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.footer .row_foot1{
+    margin-left: 140px;
+    position: absolute;
+    
+}
+.col1 {
+    float:left;    
+}
+li{
+    padding: 5px;
+}
+.colf {
+    float: left;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .rowf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+footer .colf a,p{
+    padding-left: 20px;
+}
+footer .colf{
+    font-size: 13px;
+}
