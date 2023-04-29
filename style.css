@@ -84,10 +84,11 @@ a{
      border-radius: 50px;
      border:hidden;
      font-size: 17px;
-     text-decoration: underline;
+     
  }
  .sign a{
      color:white;
+     text-decoration: underline;
  }
  .arrow{
      margin-left: 392px;
